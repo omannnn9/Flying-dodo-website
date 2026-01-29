@@ -28,17 +28,7 @@ export function LocationSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="aspect-[4/3] rounded-sm overflow-hidden shadow-lg img-worn"
           >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.936!2d57.4933!3d-20.2358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5af8d4a5d5d7%3A0x4a1d0a0a0a0a0a0a!2sFlying%20Dodo%20Brewing%20Company!5e0!3m2!1sen!2smu!4v1234567890"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Flying Dodo Brewery Location"
-            />
-          </motion.div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7487.676953795391!2d57.49526600000001!3d-20.224032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5aed47f0ba3d%3A0x82535e2571a30d04!2sFlying%20Dodo%20Brewing%20Company!5e0!3m2!1sen!2smu!4v1769685302202!5m2!1sen!2smu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
           {/* Contact details */}
           <motion.div
